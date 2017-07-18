@@ -1,0 +1,13 @@
+{
+
+	"name": "pintrest bot",
+    "description": "Pintrest follow and comment bot",
+    "type": "project",
+    "require": {
+        "php": ">=5.5.9",
+		"seregazhuk/pinterest-bot": "^4.13",
+		"dirkgroenen/Pinterest-API-PHP": "^0.2.11",
+		"maatwebsite/excel": "~2.1.0"
+
+         }
+}

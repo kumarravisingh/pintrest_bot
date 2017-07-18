@@ -1,0 +1,116 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "2fd578e8f9bcd7ec505e30a807c4dade",
+    "content-hash": "ebf10896624ec609920fbc1e84036b07",
+    "packages": [
+        {
+            "name": "dirkgroenen/pinterest-api-php",
+            "version": "0.2.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dirkgroenen/Pinterest-API-PHP.git",
+                "reference": "afd5e531059c09774e958e142b859d201aa00c79"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dirkgroenen/Pinterest-API-PHP/zipball/afd5e531059c09774e958e142b859d201aa00c79",
+                "reference": "afd5e531059c09774e958e142b859d201aa00c79",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.7.*",
+                "vlucas/phpdotenv": "^2.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DirkGroenen\\Pinterest\\": "src/Pinterest"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Dirk Groenen",
+                    "email": "dirk@bitlabs.nl",
+                    "homepage": "http://dirkgroenen.nl",
+                    "role": "Creator/Developer"
+                }
+            ],
+            "description": "PHP Wrapper for the official Pinterest API",
+            "keywords": [
+                "api",
+                "pinterest",
+                "wrapper"
+            ],
+            "time": "2016-05-10 15:36:53"
+        },
+        {
+            "name": "seregazhuk/pinterest-bot",
+            "version": "4.13.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/seregazhuk/php-pinterest-bot.git",
+                "reference": "93a55e4e87001fe891ce6c0ae0327d9142aa2c5d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/seregazhuk/php-pinterest-bot/zipball/93a55e4e87001fe891ce6c0ae0327d9142aa2c5d",
+                "reference": "93a55e4e87001fe891ce6c0ae0327d9142aa2c5d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "seregazhuk\\PinterestBot\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Mit"
+            ],
+            "authors": [
+                {
+                    "name": "Serega Zhuk",
+                    "email": "seregazhuk88@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP library for Pintrest",
+            "keywords": [
+                "lib",
+                "php",
+                "pinterest"
+            ],
+            "time": "2016-10-15 08:19:35"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.5.9"
+    },
+    "platform-dev": []
+}
